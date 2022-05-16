@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Character Select</title>
+    <link rel="stylesheet" href="./src/css/variaveis.css" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/fontes.css" />
+    <link rel="stylesheet" href="./src/css/animacoes.css" />
+    <link rel="stylesheet" href="./src/css/estilos.css" />
+    <link rel="stylesheet" href="./src/css/responsivo.css" />
+  </head>
+  <body>
+    <main>
+      <header class="cabecalho">
+        <h1 class="titulo">Character Select</h1>
+      </header>
+
+      <div class="selecao-de-personagens">
+        <div class="personagem-grande personagem-jogador-1">
+          <img
+            src="./src/imagens_one_piece/flamingo.png"
+            alt="Personagem selecionado jogador 1"
+            id="personagem-jogador-1"
+          />
+          <div class="nome">
+            <h2 id="nome-jogador-1">Donquixote Doflamingo</h2>
+          </div>
+        </div>
+
+        <ul class="lista-de-personagens">
+          <li
+            class="personagem selecionado"
+            id="flamingo"
+            data-name="Donquixote doflamingo"
+          >
+            <span class="tag">1P</span>
+            <img
+              src="./src/imagens_one_piece/flamingo.jpg"
+              alt="Personagem Donquixote flamingo"
+            />
+          </li>
+
+          <li class="personagem" id="Chopper" data-name="tony tony Chopper">
+            <span class="tag">1P</span>
+            <img
+              src="./src/imagens_one_piece/Chopper.jpg"
+              alt="Personagem Chopper"
+            />
+          </li>
+
+          <li class="personagem" id="usop" data-name="Usopp">
+            <span class="tag">1P</span>
+            <img
+              src="./src/imagens_one_piece/usop.jfif"
+              alt="Personagem usopp"
+            />
+          </li>
+
+          <li class="personagem" id="hawk" data-name="Dracula Mihawk">
+            <span class="tag">1P</span>
+            <img
+              src="./src/imagens_one_piece/hawk.jpg"
+              alt="Personagem Dracula Mihawk"
+            />
+          </li>
+
+          <li class="personagem" id="roger" data-name="Gol D. Roger">
+            <span class="tag">1P</span>
+            <img
+              src="./src/imagens_one_piece/roger.jpg"
+              alt="Personagem Gol D. Roger"
+            />
+          </li>
+
+          <li
+            class="personagem jogador-2-selecionado"
+            id="shanks"
+            data-name="Shanks"
+          >
+            <span class="tag">2P</span>
+            <img
+              src="./src/imagens_one_piece/shanks.jpg"
+              alt="Personagem shanks"
+            />
+          </li>
+
+          <li class="personagem" id="law" data-name="trafalgar law">
+            <span class="tag">1P</span>
+            <img
+              src="./src/imagens_one_piece/law.jpg"
+              alt="Personagem trafalgar law"
+            />
+          </li>
+
+          <li class="personagem" id="luffy" data-name="Monkey D. luffy">
+            <span class="tag">1P</span>
+            <img
+              src="./src/imagens_one_piece/luffy.jpg"
+              alt="Personagem Monkey D. luffy"
+            />
+          </li>
+
+          <li class="personagem" id="zoro" data-name="Rononoa zoro">
+            <span class="tag">1P</span>
+            <img
+              src="./src/imagens_one_piece/zoro.jpg"
+              alt="Personagem Rononoa Zoro"
+            />
+          </li>
+        </ul>
+
+        <div class="personagem-grande personagem-jogador-2">
+          <img
+            src="./src/imagens_one_piece/shanks.png"
+            alt="Personagem selecionado jogador 2"
+            id="personagem-jogador-2"
+          />
+          <div class="nome">
+            <h2>Shanks</h2>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
